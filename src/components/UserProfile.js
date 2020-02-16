@@ -84,6 +84,13 @@ export default class UserProfile extends Component {
                                     onChange={(e) => this.handleChange(e)} />
                             </FormGroup>
                             <FormGroup>
+                                <Label for='email'>Email</Label>
+                                <Input type='text' id='email'
+                                    name='email'
+                                    value={this.state.user.email}
+                                    onChange={(e) => this.handleChange(e)} />
+                            </FormGroup>
+                            <FormGroup>
                                 <img className='img-thumbnail'
                                     width='300' src={`http://localhost:3001/uploads/${this.state.user.image}`}
                                     alt="profile" />

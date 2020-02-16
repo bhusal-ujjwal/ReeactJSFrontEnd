@@ -9,7 +9,7 @@ export default class TodoForm extends Component {
             handlenovelDoneChange, handleNovelAdd, handleNovelUpdate, handlecategoryChange } = this.props
         return (
             <div>
-            <h2 align="center">Add Product</h2>
+            <h2 align="center">Novel Stock</h2>
                 <Form onSubmit={handleNovelAdd}>
                     <FormGroup>
                     <Label for='novelname'>Novel Name</Label>
