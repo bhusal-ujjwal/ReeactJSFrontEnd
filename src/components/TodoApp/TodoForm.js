@@ -12,19 +12,19 @@ export default class TodoForm extends Component {
             <h2 align="center">Add Product</h2>
                 <Form onSubmit={handleNovelAdd}>
                     <FormGroup>
-                    <Label for='novelname'>novelname</Label>
+                    <Label for='novelname'>Novel Name</Label>
                         <Input type='text' placeholder='Add Novel'
                             value={novelname}
                             onChange={(e) => handlenovelnameChange(e.target.value)} />
                         <Label for='check' className='ml-4 mt-2'>
                             <Input type='checkbox' id='check'
                                 checked={novelDone}
-                                onChange={(e) => handlenovelDoneChange(e.target.checked)} /> {' '} is Done?
+                                onChange={(e) => handlenovelDoneChange(e.target.checked)} /> {' '} No Stock?
                         </Label>
 
                     </FormGroup>
                     <FormGroup>
-                    <Label for='noveldesc'>noveldesc</Label>
+                    <Label for='noveldesc'>Novel Detail</Label>
                         <Input type='text' placeholder='Add description'
                             value={noveldesc}
                             onChange={(e) => handlenoveldescChange(e.target.value)} />
@@ -32,7 +32,7 @@ export default class TodoForm extends Component {
 
 
                     <FormGroup>
-                        <Label for='category'>category</Label>
+                        <Label for='category'>Genre</Label>
                         <Input type='select' id='category' value={novelcategoryId} onChange={handlecategoryChange}>
                             {
                                 novelcategory.map((category) => {
