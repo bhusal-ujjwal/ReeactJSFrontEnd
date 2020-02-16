@@ -33,7 +33,7 @@ export default () => (
         <CardBody>
         <CardTitle>Against The Gods</CardTitle>
           <CardText>Custom Synopsis: Hunted for possessing a heaven-defying object, Yun Che is a young man in both that life and the next. Throwing himself off a cliff to spite his pursuers, Yun Che is reincarnated as Xiao Che, a recently poisoned teen in another realm. Just as hated in this life as the previous one, Che must overcome his own hostile clan, his own inability to cultivate, and his own frosty fiancée.</CardText>
-          <Button href='/login'>See More</Button>
+          <Button href='/login'>Buy</Button>
         </CardBody>
       </Card>
       </div>
@@ -44,7 +44,7 @@ export default () => (
         <CardBody>
         <CardTitle>Chaotic Sword God</CardTitle>
           <CardText>ian Chen, the publicly recognized number one expert of the Jianghu. His skill with the sword went beyond perfection and was undefeatable in battle, After a battle with the exceptional expert Dugu Qiubai who had gone missing over a hundred years ago, Jian Chen succumbed to his injuries and died.</CardText>
-          <Button href='/login'>See More</Button>
+          <Button href='/login'>Buy</Button>
         </CardBody>
       </Card>
       </div>
@@ -55,7 +55,7 @@ export default () => (
         <CardBody>
         <CardTitle>Chaotic Sword God</CardTitle>
           <CardText>ian Chen, the publicly recognized number one expert of the Jianghu. His skill with the sword went beyond perfection and was undefeatable in battle, After a battle with the exceptional expert Dugu Qiubai who had gone missing over a hundred years ago, Jian Chen succumbed to his injuries and died.</CardText>
-          <Button href='/login'>See More</Button>
+          <Button href='/login'>Buy</Button>
         </CardBody>
       </Card>
       </div>
