@@ -9,14 +9,16 @@ import UserProfile from './components/UserProfile';
 import Category from './components/Category';
 import AddNovel from './components/AddNovel';
 import AddCategory from './components/AddCategory';
+import Welcome from './components/Welcome';
 
 function App() {
   return (
     <React.Fragment>
       <BrowserRouter>
         <Switch>
-          <Route exact path='/' component={Login} />
+          <Route exact path='/' component={Welcome} />
           <Route path='/register' component={Register} />
+          <Route path='/login' component={Login} />
           <PrivateRoute path='/AddNovel' component={AddNovel} />
           <PrivateRoute path='/dashboard' component={Dashboard} />
           <PrivateRoute path='/profile' component={UserProfile} />
